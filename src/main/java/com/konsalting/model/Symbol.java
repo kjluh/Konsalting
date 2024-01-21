@@ -1,7 +1,7 @@
 package com.konsalting.model;
 
 
-public class Symvol {
+public class Symbol {
     /**
      * Символ
      */
@@ -11,7 +11,7 @@ public class Symvol {
      */
     private Integer count;
 
-    public Symvol(String s, Integer count) {
+    public Symbol(String s, Integer count) {
         this.s = s;
         this.count = count;
     }
